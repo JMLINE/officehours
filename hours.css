@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+
+.jumbo{
+    background-color: black;
+    padding-top: 10px;
+    color: white;
+}
+
+h1{
+    text-align: center;
+   
+}
+.rob{
+    text-align: center;
+    color: grey;
+}
+.jason{
+    text-align: center;
+    color: grey;
+}
+
+#img1{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;   
+}
+#img2{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px; 
+}
+
+
+.signup{
+    color:grey;
+    text-align: center;
+}
