@@ -1,12 +1,38 @@
 body{
     background-color: black;
+    
+}
+.signup{
+    color:grey;
+    text-align: center;
 }
 
 .jumbo{
+    
     background-color: black;
     padding-top: 10px;
     color: white;
 }
+
+.over-img{
+    position: absolute;
+    left: 60%;
+    top: 30%;  
+    width: 120px;
+    height: 120px;
+    z-index: +2;
+    animation-name: flash;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes flash {
+  0% {opacity: 0;}
+  50% {opacity: 1}
+  100% {opacity: 0}
+  }
+
 
 h1{
     text-align: center;
@@ -14,26 +40,37 @@ h1{
 }
 .rob{
     text-align: center;
-    color: grey;
+    color: grey; 
 }
+   
+#img1{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;   
+   
+}
+#img1:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
 .jason{
     text-align: center;
     color: grey;
 }
 
-#img1{
-    border-radius: 50%;
-    height: 150px;
-    width: 150px;   
-}
+
 #img2{
     border-radius: 50%;
     height: 150px;
     width: 150px; 
 }
+#img2:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+   
+  }
 
 
-.signup{
-    color:grey;
-    text-align: center;
-}
